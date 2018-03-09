@@ -11,6 +11,7 @@
             <!-- <property name="outputToConsole">true</property> -->
         </configuration>
     </container>
+    <!-- 
     <container qualifier="weblogic">
         <defaultProtocol type="Servlet 3.0" />    
         <configuration>
@@ -20,5 +21,6 @@
             <property name="adminPassword">weblogic1</property>
             <property name="target">AdminServer</property>
         </configuration>
-    </container>    
+    </container>
+     -->    
 </arquillian>

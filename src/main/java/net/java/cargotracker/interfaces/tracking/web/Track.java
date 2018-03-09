@@ -26,7 +26,7 @@ import net.java.cargotracker.domain.model.handling.HandlingEventRepository;
  * <p/>
  * In some very simplistic cases, it is fine to not use even an adapter.
  */
-@Named
+@Named(value="tracker")
 @ViewScoped
 public class Track implements Serializable {
 

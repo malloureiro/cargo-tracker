@@ -35,7 +35,7 @@
                 <groupId>org.jboss.arquillian</groupId>
                 <artifactId>arquillian-bom</artifactId>
                 <version>1.1.10.Final</version>
-                <scope>import</scope>
+<!--                 <scope>import</scope> -->
                 <type>pom</type>
             </dependency>
         </dependencies>
@@ -94,12 +94,14 @@
         <dependency>
             <groupId>org.jboss.arquillian.junit</groupId>
             <artifactId>arquillian-junit-container</artifactId>
+            <version>1.1.10.Final</version>
             <scope>test</scope>
         </dependency>
         <!-- Resolvers are needed in the Arquillian tests -->
         <dependency>
             <groupId>org.jboss.shrinkwrap.resolver</groupId>
             <artifactId>shrinkwrap-resolver-impl-maven</artifactId>
+            <version>2.2.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
